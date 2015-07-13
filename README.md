@@ -1,11 +1,15 @@
-SagaFeaturesReporting
+Feature type story status
 =========================
 
 ## Overview
-A Rally app that shows current status of feature stories filtered by target release and schedule state. 
+A Rally app that shows current status of feature type stories filtered by target release and schedule state. 
+For each story following info is being displayed:
+- Story ID, Name, State, Priority, Owner, Project, Target Release, Completed Points/Total points (%), Completed Hours/Total hours (%), Leaf note stories and the iteration and release they are scheduled in, Testcases and verdict.
+
+Note: Testcases that are directly linked to parent or at any level in the heirarchy are being displayed. 
 
 Pie chart displays rolled up states of all feature stories and bar chart displays rolledup story counts, points and task remaining. 
-Charts are oly filtered by target release dropdown. 
+Charts are only filtered by target release dropdown. 
 
 ## License
 
